@@ -7,6 +7,7 @@ module.exports = function quad(im) {
   // Convert image to B&W based on color threshold; mostly "red"
   // [B, G, R]
   im.inRange([50, 50, 225], [200, 200, 255]);
+  console.log(im);
 
   var contours = im.findContours();
 
