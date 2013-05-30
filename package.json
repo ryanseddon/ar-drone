@@ -1,0 +1,23 @@
+{
+  "name": "our-ar-drone",
+  "version": "0.0.0",
+  "description": "",
+  "main": "drone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanseddon/ar-drone.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "594a6d1ae166ed6604455469d2c17929f86bd860",
+  "bugs": {
+    "url": "https://github.com/ryanseddon/ar-drone/issues"
+  },
+  "dependencies": {
+    "opencv": "~0.1.0",
+    "ar-drone": "~0.1.0"
+  }
+}
